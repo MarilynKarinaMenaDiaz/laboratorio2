@@ -1,4 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Libre Franklin', sans-serif;
   font-family: 'Work Sans', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+.cards div {
+  text-align: center;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.scroll {
+  position: relative;
+  left: 35%;
+  margin-bottom: 70px;
+}
+
+.pricing {
+  text-align: center;
+}
+
+.pricing-boxes {
+  display: flex;
+  justify-content: center;
+
+    div {
+      text-align: left;
+    }
+}
+
+.no-style-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.text-org {
+  color: #e27d60;
+  font-size: medium
+}
+
+.top {
+  display: flex;
+  padding: 35px 370px;
+  gap: 250px;
+}
+
+.visit {
+  display: flex;
+  background: linear-gradient(to right, #e6e6e6 70%, #fff 20%);
+  height: 460px;
+  padding: 60px 350px;
+    div{
+      text-align: end;
+      padding-right: 100px;
+    }
+
+    img {
+      width: auto;
+      height: 340px;
+    }
+}
+
+.welcome {
+  background: url(images/backOrg.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.welcome-massage {
+  margin: 210px 440px 100px 100px;
+}
+
+.welcome-massage p {
+  color: #303030;
+  margin-bottom: 35px;
+}
+
+.black-Button {
+  background-color: #303030;
+  color: #e6e6e6;  
+  padding: 13px 35px;
 }
