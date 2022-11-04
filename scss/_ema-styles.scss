@@ -1,0 +1,26 @@
+//variables
+$gray-color:#E6E6E6;
+$gray-text-color: #303030;
+$orange-color: #E27D60;
+$orange-light-color: #E8A87C;
+
+//global
+@mixin font-style($font-family, $font-weight, $font-size, $color){
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    color: $color;
+}
+
+.gray-text {
+    @include font-style('Work Sans', 300, 16px, $gray-text-color);
+}
+
+//Our reviews styles
+
+//shop section styles
+
+//logos section styles
+
+//article page styles
+
