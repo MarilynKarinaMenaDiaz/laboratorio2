@@ -23,4 +23,62 @@ $orange-light-color: #E8A87C;
 //logos section styles
 
 //article page styles
-
+.article-banner{
+    width: 1545px;
+    height: 144px;
+    background: #E6E6E6;
+    opacity: 0.5;
+}
+.article-content-2col{
+    display: flex;
+    gap: 30px;
+}
+.article-content-2col-img{
+    width: 670px;
+    height: 370px;
+    border-radius: 3px 3px 0px 0px;
+}
+.article-content-2col-text{
+    font-weight: 400;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    line-height: 21px;
+    color: #303030;
+}
+.article-content-1col {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+.article-content-2imgs img {
+    width: 384px;
+    height: 360px;
+}
+.article-content-article-text{
+    box-sizing: border-box;
+    width: 770px;
+    height: 155px;
+    background: #E8A87C;
+    opacity: 0.2;
+    border: 2px solid #E6E6E6;
+    padding: 30px 100px;
+    margin: 10px;
+}
+.article-content-article-info{
+    display: flex;
+}
+.article-content-article-info img{
+    width: 50px;
+    height: 50px;
+}
+.article-content-article-info-user{
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #E27D60;
+}
