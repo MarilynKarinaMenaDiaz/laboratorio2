@@ -22,10 +22,12 @@ $Work-sans: 'Work Sans', sans-serif;
 .gray-text {
     @include font-style($Work-sans, 300, 16px, $gray-text-color);
     line-height: 19px;
+    margin: 0;
 }
 
 .h3-orange-style {
     @include font-style($libre-frankilin, 700, 36px, $orange-color);
+    margin: 0;
 }
 
 .normal-text {
@@ -34,6 +36,12 @@ $Work-sans: 'Work Sans', sans-serif;
 
 .one-col.carousel {
     text-align: center;
+}
+
+.article-text {
+    @include font-style($Work-sans, 400, 18px, $gray-text-color);
+    line-height: 21px;
+    margin-top: 0;
 }
 
 .wrapper {
@@ -61,11 +69,6 @@ $Work-sans: 'Work Sans', sans-serif;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-
-                .gray-text,
-                .h3-orange-style {
-                    margin: 0;
-                }
             }
         }
 
@@ -132,8 +135,6 @@ $Work-sans: 'Work Sans', sans-serif;
         text-align: center;
         margin-bottom: 40px;
 
-        .gray-text,
-        .h3-orange-style,
         .normal-text-gray {
             margin: 0;
         }
@@ -214,7 +215,6 @@ $Work-sans: 'Work Sans', sans-serif;
     }
 }
 
-
 //logos section styles
 .logos-section {
     display: flex;
@@ -228,62 +228,106 @@ $Work-sans: 'Work Sans', sans-serif;
 }
 
 //article page styles
-.article-banner{
-    width: 1545px;
-    height: 144px;
-    background: #E6E6E6;
-    opacity: 0.5;
-}
-.article-content-2col{
+.article-banner {
     display: flex;
-    gap: 30px;
+    justify-content: end;
+    margin-bottom: 100px;
+
+    .article-banner-bg {
+        background-color: $gray-color;
+        display: flex;
+        padding: 40px 0 40px 337px;
+        text-align: center;
+        width: 1545px;
+
+        .article-banner-content {
+            .gray-text {
+                @include font-style($Work-sans, 400, 12px, $gray-text-color);
+                line-height: 14px;
+                opacity: 0.5;
+            }
+
+            .h3-orange-style {
+
+            }
+        }
+    }
 }
-.article-content-2col-img{
-    width: 670px;
-    height: 370px;
-    border-radius: 3px 3px 0px 0px;
-}
-.article-content-2col-text{
-    font-weight: 400;
-    font-family: 'Work Sans';
-    font-size: 18px;
-    line-height: 21px;
-    color: #303030;
-}
-.article-content-1col {
-    font-family: 'Work Sans';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #303030;
-    margin-bottom: 30px;
-}
-.article-content-2imgs img {
-    width: 384px;
-    height: 360px;
-}
-.article-content-article-text{
-    box-sizing: border-box;
-    width: 770px;
-    height: 155px;
-    background: #E8A87C;
-    opacity: 0.2;
-    border: 2px solid #E6E6E6;
-    padding: 30px 100px;
-    margin: 10px;
-}
-.article-content-article-info{
-    display: flex;
-}
-.article-content-article-info img{
-    width: 50px;
-    height: 50px;
-}
-.article-content-article-info-user{
-    font-family: 'Libre Franklin';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.02em;
-    color: #E27D60;
+
+.article-wrapper {
+    .article-content-2col {
+        display: flex;
+        gap: 30px;
+
+        .article-content-2col-img {
+            width: 670px;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    @include font-style($Work-sans, 400, 12px, $gray-text-color);
+                    line-height: 14px;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .article-content-2col-text {
+            width: 470px;
+        }
+    }
+
+    .article-content-2imgs {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .article-content-article {
+        max-width: 770px;
+        margin: 40px auto 100px;
+
+        .article-content-article-text {
+            background-color: rgba(232, 167, 124, 0.2);
+            border-radius: 3px;
+            border: 2px solid $gray-color;
+            padding: 30px 100px;
+
+            p {
+                @include font-style($Work-sans, 400, 16px, $gray-text-color);
+                line-height: 19px;
+            }
+        }
+
+        .article-content-article-info {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 50px;
+                height: 50px;
+                margin-right: 20px;
+            }
+
+            .article-content-article-info-user {
+                h6 {
+                    @include font-style($libre-frankilin, 700, 14px, $orange-color);
+                    line-height: 17px;
+                    margin: 0;
+                }
+
+                p {
+                    @include font-style($Work-sans, 400, 12px, $gray-text-color);
+                    line-height: 14px;
+                    margin: 0;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
 }
