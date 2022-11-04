@@ -36,6 +36,11 @@ $Work-sans: 'Work Sans', sans-serif;
     text-align: center;
 }
 
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 //Our reviews styles
 .our_reviws {
     background-color: $gray-color;
@@ -211,6 +216,16 @@ $Work-sans: 'Work Sans', sans-serif;
 
 
 //logos section styles
+.logos-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+    img {
+        height: auto;
+        width: 164px;
+    }
+}
 
 //article page styles
 .article-banner{
