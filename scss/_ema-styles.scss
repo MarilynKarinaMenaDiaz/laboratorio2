@@ -32,6 +32,10 @@ $Work-sans: 'Work Sans', sans-serif;
     @include font-style($Work-sans, 400, 18px, $gray-text-color);
 }
 
+.one-col.carousel {
+    text-align: center;
+}
+
 //Our reviews styles
 .our_reviws {
     background-color: $gray-color;
@@ -110,14 +114,101 @@ $Work-sans: 'Work Sans', sans-serif;
                 }
             }
         }
-
-        .one-col.carousel {
-            text-align: center;
-        }
     }
 }
 
 //shop section styles
+.shop_section {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    .shop_section-text {
+        text-align: center;
+        margin-bottom: 40px;
+
+        .gray-text,
+        .h3-orange-style,
+        .normal-text-gray {
+            margin: 0;
+        }
+
+        .h3-orange-style {
+            margin-bottom: 20px;
+        }
+
+        .normal-text-gray {
+            @include font-style($Work-sans, 400, 18px, $gray-text-color);
+            line-height: 21px;
+            margin: 0 auto;
+            max-width: 830px;
+            opacity: 0.5;
+        }
+    }
+
+    .shop_section-articles {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 40px;
+
+        .product {
+            max-width: 270px;
+
+            .product-user-options {
+                background-color: $white-color;
+                border-radius: 3px;
+                border: 2px solid  rgba(48, 48, 48, 0.2);
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                max-width: 120px;
+                position: relative;
+                top: -20px;
+
+                button {
+                    border: none;
+                    background-color: transparent;
+                    padding: 7px 0;
+
+                    img {
+                        width: 20px;
+                        height: auto;
+                    }
+
+                    &:first-child {
+                        margin-right: 16px;
+                    }
+                }
+            }
+
+            .product-details {
+                p {
+                    @include font-style($Work-sans, 400, 10px, $gray-text-color);
+                    line-height: 12px;
+                    opacity: 0.5;
+                    margin: 0;
+                    margin-bottom: 10px;
+                }
+
+                h4 {
+                    @include font-style($libre-frankilin, 700, 20px, $gray-text-color);
+                    line-height: 24px;
+                    margin: 0;
+                    margin-bottom: 10px;
+                }
+
+                h5 {
+                    @include font-style($libre-frankilin, 700, 16px, $orange-color);
+                    line-height: 19px;
+                    margin: 0;
+                }
+            }
+
+
+        }
+    }
+}
+
 
 //logos section styles
 
