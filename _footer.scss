@@ -1,0 +1,132 @@
+
+.cont1-footer{
+  margin-top: 100px;
+  background-image: url(/images/backFooter.png);
+  min-height: 275px;
+  display: flex;
+  ul{
+    list-style: none;
+    position: relative;
+  }
+  .first-li{
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: $fontFourth-color;
+    left: 375px;
+    top: 46px;
+    position: absolute;
+  }
+  .second-li {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 36px;
+    color: $fontFourth-color;
+    position: absolute;
+    left: 375px;
+    top: 73px;
+    width: 375px;
+  }
+  .thirdth-li{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    width: 400px;
+    position: absolute;
+    left: 375px;
+    top: 129px;
+    color: $fontFourth-color;
+  }
+  .color-text{
+    color:$fontSecond-color; 
+  }
+
+.form-footer{
+  position: relative;
+}
+  input{
+    width: 570px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 2px solid #E6E6E6;
+    border-radius: 3px;
+    position: absolute;
+    left: 725px;
+    top:112px
+  }
+}
+
+.cont2-footer{
+  position: relative;
+  background-color:$fontThirdt-color;
+  min-height: 326px;
+  .info1-footer{
+    position: absolute;
+    left: 758px;
+  }
+  .info2-footer {
+    position: absolute;
+    left: 1042px;
+  }
+  .info3-footer{
+    position: absolute;
+    left: 1295px;
+  }
+  .icons-footer{
+    position: absolute;
+    left: 465px;
+    top: 125px;
+  }
+  .millious-footer{
+    position: absolute;
+    left: 281px;
+    top: 123px;
+  }
+  .lastInfo-footer{
+    position: relative;
+  }
+  .p1-footer{
+    position: absolute;
+    left: 263px;
+    top: 300px;
+    opacity: 0.5;
+  }
+  .p2-footer{
+    position: absolute;
+    left: 1293px;
+    top: 299px;
+    opacity: 0.5;
+  }
+  p{
+    margin-top: 0;
+    color:$fontFourth-color ;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 16px;
+  }
+  h6{
+    margin-top: 60px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color:$fontSecond-color ;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+   }
+   li{
+    margin-bottom: 23px;
+   }
+   a {
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 14px;
+    color:#fff;
+   }
+   img{
+    padding-right: 10px;
+   }
+ }
