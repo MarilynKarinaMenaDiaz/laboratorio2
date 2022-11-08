@@ -1,0 +1,106 @@
+.discount-section{
+  background-image: url(/images/ImgDiscount.png);
+  min-width: 1920px;
+  max-height: 350px;
+  background-repeat: no-repeat ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ padding: 100px;
+  h1{
+    margin: 0;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 64px;
+    width: 477px;
+    color:$fontFourth-color ;
+    display: inline-block;
+  }
+  .h1-color{
+    color:$fontSecond-color ;
+  }
+  .discunt-number{
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 64px;
+    color:$fontFourth-color;
+  }
+  p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    width: 583px;
+    color:$fontFourth-color ;
+    display: inline-block;
+  }
+  .discount-info{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.cont1-discount {
+  display: flex;
+  p{
+  font-family: 'Work Sans';
+  font-weight: 300;
+  font-size: 16px;
+  color:$fontThirdt-color ;
+  margin-left: 29px;
+  margin-right: 29px
+  }
+  h3{
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 36px;
+  color:$fontSecond-color ;
+  margin-left: 29px;
+  margin-right: 29px
+  }
+  .p-cont1{
+    font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 18px;
+  color:$fontThirdt-color ;
+  }
+  .cont1-discount-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .imgs-cont1 {
+    max-width: 285px;
+    max-height: 370px;
+  }
+}
+
+.cont2-discount {
+  display: flex;
+  p{
+    font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 18px;
+  color:$fontThirdt-color ;
+  margin-left: 29px;
+  margin-right: 29px
+  }
+  .but-cont2{
+  width: 175px;
+  height: 42px;
+  background:$fontThirdt-color  ;
+  border-radius: 2px;
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: $fontFourth-color;
+  }
+}
+
+.container-imgs{
+  width: 1170px;
+  min-height: 842px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
