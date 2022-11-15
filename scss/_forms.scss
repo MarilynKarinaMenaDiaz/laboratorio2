@@ -1,3 +1,36 @@
+.contact--white {
+  background-color: #fff;
+  height: 400px;
+  margin-right: 475px;
+  padding: 30px;
+  width: 370px;
+}
+
+.contact--white a:first-child {
+  color: #e27d60;
+}
+
+.check__input {
+  border: 1px #e6e6e6;
+  border-radius: 2px;
+  height: 10px;
+  margin-right: 10px;
+  width: 10px;
+}
+
+.check {
+  display: flex;
+}
+
+.form__input {
+  border: 2px #e6e6e6 solid;
+  border-radius: 3px;
+  color: #303030;
+  height: 42px;
+  margin-bottom: 20px;
+  width: 310px;
+}
+
 .offer__input--hand {
   align-items: center;
   background: url(../images/bgHand.png);
@@ -77,37 +110,4 @@
   p {
     margin: 0;
   }
-}
-
-.contact--white {
-  background-color: #fff;
-  height: 400px;
-  margin-right: 475px;
-  padding: 30px;
-  width: 370px;
-}
-
-.contact--white a:first-child {
-  color: #e27d60;
-}
-
-.check__input {
-  border: 1px #e6e6e6;
-  border-radius: 2px;
-  height: 10px;
-  margin-right: 10px;
-  width: 10px;
-}
-
-.check {
-  display: flex;
-}
-
-.form__input {
-  border: 2px #e6e6e6 solid;
-  border-radius: 3px;
-  color: #303030;
-  height: 42px;
-  margin-bottom: 20px;
-  width: 310px;
 }
