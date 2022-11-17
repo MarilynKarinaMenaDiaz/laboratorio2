@@ -1,0 +1,110 @@
+.product {
+  &__nav {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #e27d60;
+    padding: 10px;
+    margin-bottom: -350px;
+    margin-top: -100px;
+    &--list a {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+    }
+    &--list {
+      display: flex;
+      gap: 35px;
+      list-style: none;
+    }
+  }
+  &__bottle {
+    height: 570px;
+    left: 383px;
+    position: relative;
+    top: 415px;
+    width: 570px;
+  }
+  &__description {
+    color: #303030;
+    font-size: 36px;
+    font-weight: bold;
+    left: 1045px;
+    position: absolute;
+    margin-top: -190px;
+    &--rating {
+      color: #303030;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    &--bestseller {
+      background-color: #e27d60;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    &--social-apps {
+      margin-top: 50px;
+    }
+  }
+  &__count {
+  border: 2px solid #e6e6e6;
+  width: 95px;
+  padding:10px;
+  }
+  &__description--text {
+    position: absolute;
+    width: 28%;
+    margin-left: 1045px;
+    margin-top: 290px;
+    font-size: 16px;  
+    color: #929292;
+  }
+  &__btn--black {
+    background-color: #303030;
+    color: white;
+    padding: 13px 36px;
+    width: 530px;
+    margin-top: 50px;
+  }
+  &__descrition--text {
+    width: 1170px;
+    margin-top: 640px ;
+    margin-bottom: 39px ;
+  }
+}
+
+.review {
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 375px;
+  }
+  &__opinions {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 375px;
+    &--text {
+      border: 2px solid #e6e6e6;
+      padding: 30px;
+    }
+    &--box {
+      align-items: center;
+      display: block;
+      justify-content: space-between;
+      width: 48%;
+    }
+    &--profile {
+      display: flex;
+    }
+  } 
+  &__calification-profile {
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  &__profile-org {
+    color: #e27d60;
+  }
+}

@@ -1,0 +1,45 @@
+@mixin org-title {
+  position: relative;
+  color: #e27d60;
+  font-family: 'Libre Franklin';
+  font-size: 36px;
+}
+
+.gray-box {
+  background-color: #e6e6e6;
+  height: 144px;
+  margin-bottom: 100px;
+  margin-left: 378px;
+  max-width: 100%;
+  text-align: center;
+  width: 1525px;
+  &__link a{
+    position: relative;
+    left: -200px;
+    top: 20px;
+    font-size: 12px;
+    color: #303030;
+  }
+  &__container {
+    background-color: #e6e6e6;
+    max-width: 60%;
+    position: relative;
+  }
+  &__content {
+    text-align: end;
+    padding: 150px;
+    width: 85%;
+  }
+}
+
+.services {
+  &__title {
+    left: -200px;;
+    @include org-title
+  }
+  &__img {
+    position: absolute;
+    top: 54px;
+    right: -289px;
+  }
+}
