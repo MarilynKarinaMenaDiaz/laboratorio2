@@ -1,5 +1,5 @@
 //variables
-//colors
+//colorst
 $white-color: #FFFFFF;
 $gray-color:#E6E6E6;
 $gray-text-color: #303030;
@@ -19,26 +19,23 @@ $Work-sans: 'Work Sans', sans-serif;
     color: $color;
 }
 
-.gray-text {
+.gray__text {
     @include font-style($Work-sans, 300, 16px, $gray-text-color);
     line-height: 19px;
     margin: 0;
 }
 
-.h3-orange-style {
+.h3__orange--style {
     @include font-style($libre-frankilin, 700, 36px, $orange-color);
     margin: 0;
 }
 
-.normal-text {
+.normal__text {
     @include font-style($Work-sans, 400, 18px, $gray-text-color);
 }
 
-.one-col.carousel {
-    text-align: center;
-}
 
-.article-text {
+.article__text {
     @include font-style($Work-sans, 400, 18px, $gray-text-color);
     line-height: 21px;
     margin-top: 0;
@@ -50,19 +47,19 @@ $Work-sans: 'Work Sans', sans-serif;
 }
 
 //Our reviews styles
-.our_reviws {
+.our__reviws {
     background-color: $gray-color;
 
-    .our_reviews_wrapper {
+    .our__reviews--wrapper {
         width: 1170px;
         margin: 0 auto;
         padding: 100px 0;
 
-        .two-col {
+        .two__col {
             display: flex;
             padding-bottom: 60px;
 
-            .two-col_left {
+            .two__col--left {
                 text-align: right;
                 max-width: 570px;
                 margin-right: 30px;
@@ -72,10 +69,10 @@ $Work-sans: 'Work Sans', sans-serif;
             }
         }
 
-        .three-col {
+        .three__col {
             margin-bottom: 30px;
 
-            .our_reviws-article {
+            .our__reviws--article {
                 display: inline-block;
                 &>p {
                     @include font-style($Work-sans, 400, 14px, $gray-text-color);
@@ -126,24 +123,24 @@ $Work-sans: 'Work Sans', sans-serif;
 }
 
 //shop section styles
-.shop_section {
+.shop__section {
     max-width: 1170px;
     margin: 0 auto;
     padding: 100px 0;
 
-    .shop_section-text {
+    .shop__section--text {
         text-align: center;
         margin-bottom: 40px;
 
-        .normal-text-gray {
+        .normal__text--gray {
             margin: 0;
         }
 
-        .h3-orange-style {
+        .h3__orange--style {
             margin-bottom: 20px;
         }
 
-        .normal-text-gray {
+        .normal__text--gray {
             @include font-style($Work-sans, 400, 18px, $gray-text-color);
             line-height: 21px;
             margin: 0 auto;
@@ -152,7 +149,7 @@ $Work-sans: 'Work Sans', sans-serif;
         }
     }
 
-    .shop_section-articles {
+    .shop__section--articles {
         display: flex;
         gap: 30px;
         margin-bottom: 40px;
@@ -160,7 +157,7 @@ $Work-sans: 'Work Sans', sans-serif;
         .product {
             max-width: 270px;
 
-            .product-user-options {
+            .product__user--options {
                 background-color: $white-color;
                 border-radius: 3px;
                 border: 2px solid  rgba(48, 48, 48, 0.2);
@@ -187,7 +184,7 @@ $Work-sans: 'Work Sans', sans-serif;
                 }
             }
 
-            .product-details {
+            .product__details {
                 p {
                     @include font-style($Work-sans, 400, 10px, $gray-text-color);
                     line-height: 12px;
@@ -216,7 +213,7 @@ $Work-sans: 'Work Sans', sans-serif;
 }
 
 //logos section styles
-.logos-section {
+.logos__section {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
@@ -228,38 +225,34 @@ $Work-sans: 'Work Sans', sans-serif;
 }
 
 //article page styles
-.article-banner {
+.article__banner {
     display: flex;
     justify-content: end;
     margin-bottom: 100px;
 
-    .article-banner-bg {
+    .article__banner--bg {
         background-color: $gray-color;
         display: flex;
         padding: 40px 0 40px 337px;
         text-align: center;
         width: 1545px;
 
-        .article-banner-content {
-            .gray-text {
+        .article__banner--content {
+            .gray__text {
                 @include font-style($Work-sans, 400, 12px, $gray-text-color);
                 line-height: 14px;
                 opacity: 0.5;
-            }
-
-            .h3-orange-style {
-
             }
         }
     }
 }
 
-.article-wrapper {
-    .article-content-2col {
+.article__wrapper {
+    .article__content--2col {
         display: flex;
         gap: 30px;
 
-        .article-content-2col-img {
+        .article__content--2col-img {
             width: 670px;
 
             ul {
@@ -277,21 +270,21 @@ $Work-sans: 'Work Sans', sans-serif;
             }
         }
 
-        .article-content-2col-text {
+        .article__content--2col-text {
             width: 470px;
         }
     }
 
-    .article-content-2imgs {
+    .article__content--2imgs {
         text-align: center;
         margin: 30px 0;
     }
 
-    .article-content-article {
+    .article__content--article {
         max-width: 770px;
         margin: 40px auto 100px;
 
-        .article-content-article-text {
+        .article__content--article-text {
             background-color: rgba(232, 167, 124, 0.2);
             border-radius: 3px;
             border: 2px solid $gray-color;
@@ -303,7 +296,7 @@ $Work-sans: 'Work Sans', sans-serif;
             }
         }
 
-        .article-content-article-info {
+        .article__content--article-info {
             margin-top: 10px;
             display: flex;
             align-items: center;
@@ -314,7 +307,7 @@ $Work-sans: 'Work Sans', sans-serif;
                 margin-right: 20px;
             }
 
-            .article-content-article-info-user {
+            .article__content--article_info-user {
                 h6 {
                     @include font-style($libre-frankilin, 700, 14px, $orange-color);
                     line-height: 17px;
