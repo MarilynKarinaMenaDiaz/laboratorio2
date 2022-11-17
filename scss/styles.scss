@@ -1,3 +1,5 @@
+@use '_ema-styles';
+
 * {
   box-sizing: border-box;
 }
@@ -326,6 +328,7 @@ body {
   position: relative;
   top: 415px;
   width: 570px;
+  height: 244px;
 }
 
 .product-section {
@@ -677,3 +680,4 @@ $Work-sans: 'Work Sans', sans-serif;
     letter-spacing: 0.02em;
     color: #E27D60;
 }
+
