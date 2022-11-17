@@ -1,0 +1,33 @@
+.header__img {
+  height: 20px;
+  width: auto;
+}
+
+.navegation {
+  display: flex;
+  gap: 209px;
+  height: 105px;
+  padding: 35px 370px;
+}
+
+.nav__a {
+  color: #303030;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.nav__a::after {
+  content: url(../images/downArrow.png);
+  display: inline-block;
+  height: 12px;
+  padding-left: 10px;
+  width: auto;
+}
+
+.nav__a:hover {
+  color: #e27d60;
+}
+
+.nav__a:hover::after {
+  content: url(../images/downArrowOrg.png);
+}

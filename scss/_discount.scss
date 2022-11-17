@@ -1,0 +1,124 @@
+.discount-section {
+  background-image: url(/images/ImgDiscount.png);
+  min-width: 1920px;
+  max-height: 350px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  margin-bottom: 23px;
+}
+
+.discount-general {
+  display: flex;
+  flex-direction: column;
+
+  .discount-general__tittle {
+    margin: 0;
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    font-size: 64px;
+    width: 477px;
+    color: $fontFourth-color ;
+    display: inline-block;
+  }
+
+  .discount-general__tittle--variant {
+    color: $fontSecond-color ;
+  }
+
+  p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    width: 583px;
+    color: $fontFourth-color ;
+    display: inline-block;
+  }
+
+}
+
+.discunt-general__number {
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 64px;
+  color: $fontFourth-color;
+  margin-left: 100px;
+}
+
+.discount-container1 {
+  width: 1170px;
+  min-height: 842px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .discount-cont {
+    display: flex;
+  }
+
+  img {
+    max-width: 285px;
+    max-height: 370px;
+  }
+
+  .discount-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+
+    p {
+      font-family: 'Work Sans';
+      font-weight: 300;
+      font-size: 16px;
+      color: $fontThirdt-color ;
+      margin-left: 29px;
+      margin-right: 29px
+    }
+
+    h3 {
+      font-family: 'Libre Franklin';
+      font-weight: 700;
+      font-size: 36px;
+      color: $fontSecond-color ;
+      margin-left: 29px;
+      margin-right: 29px
+    }
+
+    .discount-flex__text {
+      font-family: 'Work Sans';
+      font-weight: 400;
+      font-size: 18px;
+      color: $fontThirdt-color ;
+      padding: 24px;
+    }
+
+  }
+
+}
+
+
+.discount-container2 {
+  display: flex;
+
+  p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: $fontThirdt-color ;
+    width: 500px;
+    line-height: 21px;
+    margin: 26px;
+  }
+
+  .discount-container__img {
+    max-width: 570px;
+    height: 350px;
+  }
+}
+.button--variant{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
