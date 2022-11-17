@@ -1,0 +1,45 @@
+.article-card {
+  &__title {
+    &--gray{
+      text-align: center;
+    }
+    text-align: center;
+    margin-top: -10px;
+    @include org-title
+  }
+  &__sections {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  &__content {
+    margin-left: 28px;
+    position: relative;
+  }
+  &__article {
+    border-radius: 3px;
+    border: 2px solid #e6e6e6;
+    height: 466px;
+    margin-left: 30px;
+    position: relative;
+    width: 370px;
+  }
+  &__text {
+    font-size: 10px;
+    font-weight: 400;
+    &--h3 {
+      color: #e27d60;
+      font-size: 20px;
+    }
+  }
+  &__link {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+  } 
+}
+
+
+
+
