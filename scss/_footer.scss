@@ -1,132 +1,158 @@
-
-.cont1-footer{
+.footer-general {
   margin-top: 100px;
   background-image: url(/images/backFooter.png);
   min-height: 275px;
   display: flex;
-  ul{
-    list-style: none;
-    position: relative;
-  }
-  .first-li{
+  position: relative;
+}
+
+.footer-container1 {
+  position: absolute;
+  left: 388px;
+  top: 23px;
+
+  p {
+    width: 99px;
+    height: 19px;
     font-family: 'Work Sans';
     font-weight: 300;
     font-size: 16px;
-    color: $fontFourth-color;
-    left: 375px;
-    top: 46px;
-    position: absolute;
+    color: $fontFourth-color ;
   }
-  .second-li {
+
+  h2 {
     font-family: 'Libre Franklin';
     font-weight: 700;
     font-size: 36px;
-    color: $fontFourth-color;
-    position: absolute;
-    left: 375px;
-    top: 73px;
-    width: 375px;
+    line-height: 44px;
+    color: $fontFourth-color ;
   }
-  .thirdth-li{
+
+  .footer__description {
     font-family: 'Work Sans';
     font-weight: 400;
     font-size: 18px;
-    width: 400px;
-    position: absolute;
-    left: 375px;
-    top: 129px;
     color: $fontFourth-color;
-  }
-  .color-text{
-    color:$fontSecond-color; 
+    width: 369px;
   }
 
-.form-footer{
-  position: relative;
+
+  .footer__description--different {
+    color: $fontSecond-color ;
+  }
+
 }
-  input{
+
+form {
+  position: relative;
+
+  .footer__space {
     width: 570px;
     height: 42px;
     background: #FFFFFF;
     border: 2px solid #E6E6E6;
     border-radius: 3px;
     position: absolute;
-    left: 725px;
-    top:112px
+    left: 806px;
+    top: 116px
+  }
+
+
+  .button--right {
+    position: absolute;
+    left: 1446px;
+    top: 122px;
   }
 }
 
-.cont2-footer{
+
+.footer-container2 {
   position: relative;
-  background-color:$fontThirdt-color;
+  background-color: $fontThirdt-color;
   min-height: 326px;
-  .info1-footer{
-    position: absolute;
-    left: 758px;
-  }
-  .info2-footer {
-    position: absolute;
-    left: 1042px;
-  }
-  .info3-footer{
-    position: absolute;
-    left: 1295px;
-  }
-  .icons-footer{
-    position: absolute;
-    left: 465px;
-    top: 125px;
-  }
-  .millious-footer{
+
+  .footer-container2__img {
     position: absolute;
     left: 281px;
     top: 123px;
   }
-  .lastInfo-footer{
-    position: relative;
-  }
-  .p1-footer{
+
+  .footer-container2__icons {
     position: absolute;
-    left: 263px;
-    top: 300px;
-    opacity: 0.5;
+    left: 465px;
+    top: 125px;
+
+    img {
+      margin-right: 8px;
+    }
   }
-  .p2-footer{
+
+  .footer-common {
+
+    h6 {
+      margin-top: 60px;
+      font-family: 'Libre Franklin';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: $fontSecond-color ;
+    }
+
+    .footer-info__ul {
+      list-style: none;
+      padding: 0
+    }
+
+    li {
+      margin-bottom: 23px;
+
+      a {
+        text-decoration: none;
+        font-family: 'Libre Franklin';
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+
+  }
+
+  .footer-info1 {
+    position: absolute;
+    left: 758px;
+  }
+
+  .footer-info2 {
+    position: absolute;
+    left: 1042px;
+  }
+
+  .footer-info3 {
+    position: absolute;
+    left: 1295px;
+
+    .footer-info3--img {
+      padding-right: 10px;
+    }
+
+  }
+
+  .footer-info4 {
+    position: relative;
+
+    p {
+      position: absolute;
+      left: 263px;
+      top: 300px;
+      opacity: 0.5;
+    }
+  }
+
+  .footer-info4--right {
     position: absolute;
     left: 1293px;
     top: 299px;
     opacity: 0.5;
   }
-  p{
-    margin-top: 0;
-    color:$fontFourth-color ;
-    font-family: 'Libre Franklin';
-    font-weight: 700;
-    font-size: 16px;
-  }
-  h6{
-    margin-top: 60px;
-    font-family: 'Libre Franklin';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    color:$fontSecond-color ;
-  }
-  ul{
-    list-style: none;
-    padding: 0;
-   }
-   li{
-    margin-bottom: 23px;
-   }
-   a {
-    text-decoration: none;
-    font-family: 'Libre Franklin';
-    font-weight: 700;
-    font-size: 14px;
-    color:#fff;
-   }
-   img{
-    padding-right: 10px;
-   }
- }
+
+}
