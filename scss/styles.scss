@@ -24,57 +24,10 @@ img {
 @import "header";
 @import "reception";
 @import "fonts";
-@import "ourTeam";
+@import "masters";
 @import "treatments";
-@import "healthyLife";
-
-
-.visit-2 {
-  background: linear-gradient(to right, #fff 32.1%, #e6e6e6 0%);
-  display: flex;
-  height: 460px;
-  padding: 60px 350px;
-  margin-bottom: 100px;
-  div {
-    margin: 30px 25px 30px 100px;
-    text-align: start;
-  }
-  img {
-    height: 340px;
-    width: auto;
-  }
-  h2 {
-    color: #e27d60;
-  }
-}
-
-.visit-big {
-  background: linear-gradient(to right, #e6e6e6 67%, #fff 32%);
-  display: flex;
-  height: 691px;
-  margin-bottom: 100px;
-  h2 {
-    color: #e27d60;
-  }
-}
-
-.visit-big-img {
-  display: flex;
-  img {
-    height: 284px;
-    width: auto;
-  }
-}
-
-.visit-img {
-  height: 570px;
-  width: auto;
-}
-
-.visit-box {
-  margin: 30px 25px 30px 100px;
-    text-align: start;
-}
+@import "healthy";
+@import "visit";
 
 //triumph your fitness/ /
 
@@ -111,11 +64,6 @@ h4 {
   height: 510px;
 }
 
-.image-tri {
-  width: 285px;
-  height: 370px;
-}
-
 .half-grey {
   background-color: #E6E6E6;
 }
@@ -141,57 +89,6 @@ h4 {
   border-top: 40px;
 }
 
-.about-us {
-  width: 1545px;
-  height: 144px;
-  position: relative;
-  left: 375px;
-}
-
-.about-us h2 {
-  position: absolute;
-  top: 30px;
-  left: 502px;
-}
-
-.about-us h4 {
-  position: absolute;
-  top: 30px;
-  left: 530px;
-  font-size: 12px;
-}
-
-.our-story {
-  width: 1260px;
-  height: 460px;
-  margin-top: 100px;
-}
-
-.info-story h4 {
-  position: absolute;
-  top: 350px;
-  left: 750px;
-}
-
-.info-story h2 {
-  position: absolute;
-  top: 370px;
-  left: 530px;
-}
-
-.info-story p {
-  position: absolute;
-  top: 450px;
-  left: 400px;
-}
-
-.info-story img {
-  width: 570px;
-  height: 340px;
-  position: absolute;
-  top: 310px;
-  left: 1000px;
-}
 
 //Steph
 body {
