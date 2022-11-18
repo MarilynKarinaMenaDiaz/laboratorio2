@@ -1,5 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .button--black {
   background-color: #303030;
+  border: none;
   color: #e6e6e6;
   padding: 13px 35px;
 }
@@ -7,6 +22,22 @@
 .container {
   max-width: 1920px;
   margin: 0 auto;
+}
+
+h2 {
+  color: #e27d60;
+  font-size: 36px;
+  font-style: bold;
+}
+
+h4 {
+  color: #303030;
+  font-size: 16px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
 
 .no-style-list {
